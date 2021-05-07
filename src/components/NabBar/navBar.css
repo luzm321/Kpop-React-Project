@@ -1,0 +1,113 @@
+.sideBarDiv {
+    float: left;
+    /* background-color: black; */
+    width: 50px;
+    height: 100%;
+    position: fixed;  
+}
+  
+.sideBarExpanded {
+    /* justify-content:left space-evenly;
+    text-align: center;
+    font-family:cursive;
+    background-color:darkcyan;
+    border:darkgreen solid 3px;
+    margin: 0;
+    display: flex; */
+  
+    /* width: 10%; */
+    /* height: 200%; */
+    /* float: left; */
+    /* line-height: 4.0em; */
+  
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;  
+}
+  
+.sideBarCollapsed {
+    height: 100%;
+    width: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 60px;
+}
+  
+.navListExpanded {
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+}
+  
+.navListCollapsed {
+    width: 100px;
+}
+
+.sideBarLink {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-family: "Kaushan Script", sans-serif;
+}
+  
+.sideBarLink:hover {
+    color: steelblue;   
+}
+  
+.navGif {
+    justify-content:right;
+    width:85px;
+    height: 85px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    /* margin-top: -10px; */
+}
+
+.navGif:hover {
+    background-color: steelblue;
+}
+  
+.gifNav5 {
+    margin-bottom: -10px;
+}
+  
+.addGrpBut {
+    color: teal;
+    background-color: black;
+    text-align: center;
+    margin: 50px 0px 50px 10px;
+    border: solid cyan 2px;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    font-family:"Gorditas", sans-serif;
+    cursor:pointer;
+}
+
+.addGrpBut:hover {
+    color: steelblue;
+}
+
+.addGrpBut:active {
+    background-color: darkslategrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+

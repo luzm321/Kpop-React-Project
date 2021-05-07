@@ -1,0 +1,80 @@
+.footer {
+    justify-content: center;
+    text-align: center;
+    color: lavender;
+    /* background-color: palevioletred; */
+    margin: 0;
+    display:block;
+    height: 46em;
+    /* overflow: hidden; */
+    /* position: fixed; */
+}
+  
+.footBgd {
+    /* The image used */
+    background-image: url("https://www.euractiv.com/wp-content/uploads/sites/2/2019/05/Autumn_forest-800x450.jpg");
+  
+    /* Set a specific height */
+    min-height: 60em;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+.runningText {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform:translateX(50%);
+    -webkit-transform:translateX(50%);	
+    transform:translateX(50%);
+    /* Apply animation to this element */	
+    -moz-animation: horizontally 10s linear infinite alternate;
+    -webkit-animation: horizontally 10s linear infinite alternate;
+    animation: horizontally 10s linear infinite alternate;
+    }
+  /* Move it (define the animation) */
+  @-moz-keyframes horizontally {
+   0%   { -moz-transform: translateX(50%); }
+   100% { -moz-transform: translateX(-50%); }
+  }
+  @-webkit-keyframes horizontally {
+   0%   { -webkit-transform: translateX(50%); }
+   100% { -webkit-transform: translateX(-50%); }
+  }
+  @keyframes horizontally {
+   0%   { 
+   -moz-transform: translateX(50%); /* Browser bug fix */
+   -webkit-transform: translateX(50%); /* Browser bug fix */
+   transform: translateX(50%); 		
+    }
+   100% { 
+   -moz-transform: translateX(-50%); /* Browser bug fix */
+   -webkit-transform: translateX(-50%); /* Browser bug fix */
+   transform: translateX(-50%); 
+   }
+}
+  
+  
+.responsive-vid {
+    /* float:left; */
+    border:darkblue solid 2px;
+    height: 500px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+  
+.panda {
+    /* float: right; */
+    height: 50px;
+    border: solid black 2px;
+    margin-bottom: -13px;
+    
+}

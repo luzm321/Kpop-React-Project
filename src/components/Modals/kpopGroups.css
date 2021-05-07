@@ -1,0 +1,145 @@
+.bigBang {
+    margin-top: -4.5em;
+}
+
+.bbColor {
+    /* The image used */
+    background-image: url("https://www.gannett-cdn.com/presto/2018/12/15/USAT/2e7b9863-85ac-4faa-aad3-096fc1826c20-GettyImages-841647034.jpg");
+    
+    /* Set a specific height */
+    min-height: 60em;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerBB {
+    color:cornflowerblue;
+    font-size: 100px;
+    font-family:sans-serif;
+    text-align: center;
+    border-style: groove;
+    border-color:lightsteelblue;
+}
+
+.bigBangGroup {
+    /* color: lightskyblue; */
+    font-family: "Sofia", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    /* border: solid 2px black; */
+    /* background-color:rgb(35, 32, 80); */
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 
+}
+
+.paragraphBb {
+    text-align: center;
+    color: lavender;
+    /* border: solid 2px black; */
+    background-color:rgb(35, 32, 80);
+    /* color: white; */
+    font-family: "Sofia", sans-serif;
+    margin: 80px 0px;
+}
+
+.exo {
+    font-size: 15px;
+}
+
+.mx {
+    font-size: 14.50px;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 88em;
+}
+
+.bbPic {
+    border-radius: 60px;
+    width: 420px;
+    height: 500px;
+    padding: 5px;
+}
+
+.videoLink {
+   width:400px;
+   height: 500px;
+}  
+
+.addMemberButton {
+    color: teal;
+    background-color: black;
+    text-align: center;
+    margin: 150px 0px 50px 37.5em;
+    border: solid cyan 2px;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    font-family:"Gorditas", sans-serif;
+    cursor:pointer;
+}
+
+.addMemberButton:hover {
+    color: steelblue;
+}
+
+.addMemberButton:active {
+    background-color: darkslategrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.deleteGrpBut {
+    color: teal;
+    background-color: black;
+    text-align: center;
+    margin: 50px 0px 50px 10px;
+    border: solid cyan 2px;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    font-family:"Gorditas", sans-serif;
+    cursor:pointer;
+}
+
+.deleteGrpBut:hover {
+    color: steelblue;
+}
+
+.deleteGrpBut:active {
+    background-color: darkslategrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.patchGrpBut {
+    color: teal;
+    background-color: black;
+    text-align: center;
+    margin: 50px 0px 50px 10px;
+    border: solid cyan 2px;
+    border-radius: 50px;
+    width: 180px;
+    height: 40px;
+    font-family:"Gorditas", sans-serif;
+    cursor:pointer;
+}
+
+.patchGrpBut:hover {
+    color: steelblue;
+}
+
+.patchGrpBut:active {
+    background-color: darkslategrey;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
